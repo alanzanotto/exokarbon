@@ -1,0 +1,7 @@
+title: Exokarbon
+description: Recipes, projects, and collections
+theme: null
+markdown: kramdown
+collections:
+  recipes:
+    output: true
