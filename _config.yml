@@ -1,7 +1,7 @@
 title: Exokarbon
-description: Recipes, projects, and collections
-theme: null
+baseurl: "/exokarbon"
 markdown: kramdown
+
 collections:
   recipes:
     output: true
