@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Chili
+collection: recipes
 ---
 
 ## Ingredients
