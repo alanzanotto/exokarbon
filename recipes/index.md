@@ -1,4 +1,3 @@
-
 ---
 layout: default
 title: Recipes
@@ -11,17 +10,13 @@ Browse simple, practical recipes.
 </p>
 
 <ul class="recipe-list">
-
-  <li>
-    <a href="/recipes/spaghetti">Spaghetti</a>
-  </li>
-
-  <li>
-    <a href="/recipes/pancakes">Pancakes</a>
-  </li>
-
-  <li>
-    <a href="/recipes/grilled-cheese">Grilled Cheese</a>
-  </li>
-
+  {% for page in site.pages %}
+    {% if page.path contains "recipes/" and page.name != "index.md" %}
+      <li>
+        <a href="{{ page.url | relative_url }}">
+          {{ page.title }}
+        </a>
+      </li>
+    {% endif %}
+  {% endfor %}
 </ul>

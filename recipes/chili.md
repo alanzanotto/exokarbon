@@ -1,7 +1,6 @@
 ---
 layout: default
-title: Chili
-collection: recipes
+title: Spaghetti
 ---
 
 ## Ingredients
