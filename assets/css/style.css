@@ -130,3 +130,48 @@ main {
     margin: 5px;
   }
 }
+
+/* Hot Wheels Gallery */
+.hw-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+/* Individual car card */
+.hw-card {
+  background: var(--card);
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  transition: var(--transition);
+  cursor: pointer;
+}
+
+/* Hover lift effect */
+.hw-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+}
+
+/* Image styling */
+.hw-card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+/* Zoom effect on hover */
+.hw-card:hover img {
+  transform: scale(1.05);
+}
+
+/* Optional title under image */
+.hw-card p {
+  padding: 12px;
+  margin: 0;
+  font-weight: 500;
+  text-align: center;
+}
