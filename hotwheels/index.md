@@ -9,14 +9,11 @@ title: Hotwheels
 Looks at cool hot wheels pictures.
 </p>
 
-<ul class="recipe-list">
-  {% for page in site.pages %}
-    {% if page.path contains "recipes/" and page.name != "index.md" %}
-      <li>
-        <a href="{{ page.url | relative_url }}">
-          {{ page.title }}
-        </a>
-      </li>
-    {% endif %}
-  {% endfor %}
-</ul>
+<div class="hw-gallery">
+
+  <div class="hw-card">
+    <img src="{{ '/hotwheels/images/PXL_20230917_143850460.jpg' | relative_url }}" alt="Hot Wheels Car">
+    <p>My First Car</p>
+  </div>
+
+</div>
