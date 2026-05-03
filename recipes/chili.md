@@ -1,13 +1,20 @@
 ---
 layout: default
-title: Spaghetti
+title: Taco Meat Chilli
 ---
 
 ## Ingredients
-- Ground beef
-- Tomatoes
-- Beans
-- Chili powder
+- 1 or 2 Sweet Onions
+- Celery
+- Carrots
+- Ground beef (1kg)
+- Crushed Tomatoes
+- Diced Tomatos
+- Kidney Beans 2 Cans
+- Black Beans
+- Corn
+- Chili powder (3tablespoons)
+- Oregeno (1 tablespoon)
 
 ## Instructions
 1. Brown the beef
